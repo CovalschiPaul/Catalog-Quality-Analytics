@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.tmp
+.venv/
+
+# Reproducible generated inputs
+data/*.csv
+data/*.sqlite
+sql/03_load_data.sql
