@@ -1,0 +1,47 @@
+{
+  "seed": 20261113,
+  "as_of": "2026-10-31",
+  "listings": 10000,
+  "checks": 60000,
+  "issues": 5852,
+  "raw_rows": 10200,
+  "monthly_quality": [
+    {
+      "month_end": "2026-05-31",
+      "checked": 10000,
+      "affected": 962,
+      "rate": 0.0962
+    },
+    {
+      "month_end": "2026-06-30",
+      "checked": 10000,
+      "affected": 908,
+      "rate": 0.0908
+    },
+    {
+      "month_end": "2026-07-31",
+      "checked": 10000,
+      "affected": 860,
+      "rate": 0.086
+    },
+    {
+      "month_end": "2026-08-31",
+      "checked": 10000,
+      "affected": 771,
+      "rate": 0.0771
+    },
+    {
+      "month_end": "2026-09-30",
+      "checked": 10000,
+      "affected": 677,
+      "rate": 0.0677
+    },
+    {
+      "month_end": "2026-10-31",
+      "checked": 10000,
+      "affected": 637,
+      "rate": 0.0637
+    }
+  ],
+  "validation": "SQLite integrity, foreign keys, denominator, six monthly rate and six historical backlog oracle checks passed. PostgreSQL and Power BI not executed."
+}
