@@ -1,0 +1,20 @@
+// Create each measure separately. Not executed in Power BI Desktop yet.
+Checks = COUNTROWS(v_check_outcome)
+
+Affected Checks = SUM(v_check_outcome[has_issue])
+
+Affected Check Rate = DIVIDE([Affected Checks], [Checks])
+
+Backlog Issues =
+IF(
+    HASONEVALUE(dim_month[month_end]),
+    COALESCE(COUNTROWS(v_backlog_snapshot), 0),
+    BLANK()
+)
+
+Backlog Listings =
+IF(
+    HASONEVALUE(dim_month[month_end]),
+    COALESCE(DISTINCTCOUNT(v_backlog_snapshot[listing_id]), 0),
+    BLANK()
+)
