@@ -71,10 +71,6 @@ Developed with AI assistance. Synthetic results are not claims of production dep
 - Power BI star schema guidance: https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
 - Power BI Desktop getting started: https://learn.microsoft.com/en-us/power-bi/fundamentals/desktop-getting-started
 
-## Next milestone
-
-Complete the first SQL lesson, then import the four model CSVs into Power BI using `powerbi/BUILD_GUIDE.md`. Publish only after you have validated the report and can demonstrate it.
-
 ## Automated checks
 
 GitHub Actions rebuilds the dataset and runs the boundary tests on Python 3.10 and 3.13. A configured workflow is not evidence of a passed remote run; inspect the Actions tab for the current status.
